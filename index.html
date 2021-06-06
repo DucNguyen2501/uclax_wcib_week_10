@@ -4,13 +4,15 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Week 9</title>
+    <title>Duc Nguyen Portfolio</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" type="text/css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -18,13 +20,60 @@
   </head>
 
   <body>
-    <p><a href="images/wireframe-about.jpg" target="_blank">wireframe about</a></p>
-    <p><a href="images/wireframe-gallery.jpg" target="_blank">wireframe gallery</a></p>
-    <p><a href="images/wireframe-resume.jpg" target="_blank">wireframe resume</a></p>
+    <div class="container1">
+      <nav class="nav justify-content-center">
+        <a class="nav-link active" href="index.html">About</a>
+        <a class="nav-link" href="gallery.html">Gallery</a>
+        <a class="nav-link" href="resume.html">Resume</a>
+      </nav>
 
-    <p><a href="images/About.png" target="_blank">About page</a></p>
-    <p><a href="images/Gallery.png" target="_blank">Gallery page</a></p>
-    <p><a href="images/Resume.png" target="_blank">Resume page</a></p>
+      <div class="row justify-content-between">
+        <div class="col-md-5">
+          <h1>ABOUT</h1>
+          <p>It has been 14 years since I decided to become a graphic designer and I have never regretted my decision. The feeling I have whenever I complete an attractive artwork is just so satisfying. Even through the roller coaster rides of this challenging career, I have never lost my passion for it. I could find my thoughts, my dreams and even my hobbies in it. Graphic design defines who I am!</p>
+        </div>
+        <div class="col-md-6 hero-img">
+          <img src="images/hero-img.png" alt="Coffee splashing out of cup" class="img-fluid">
+        </div>
+      </div> <!--end of row-->
+
+    </div>  <!--end of container1-->
+
+    <div class="container2 text-center">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1>CONTACT</h1>
+        </div>
+
+        <div class="col-sm-4 img">
+          <img src="images/contact-img.jpg" alt="Yellow phone" class="img-fluid">
+        </div>
+
+        <div class="col-sm-4 text-left">
+          <ul>
+            <li><img class="icon" src="images/email-icn.png" alt="My Email">&nbsp;&nbsp;vymyducnguyen@gmail.com</li>
+            <li><img class="icon" src="images/linkedin-icn.png" alt="My LinkedIn">&nbsp;&nbsp;www.linkedin.com/in/my-duc-nguyen</li>
+            <li><img class="icon" src="images/phone-icn.png" alt="My Phone Number">&nbsp;&nbsp;484-600-9000</li>
+          </ul>
+        </div>
+
+        <div class="col-sm-4">
+          <form class="form justify-content-center">
+            <div class="form-group">
+              <input type="email" class="form-control" id="InputEmail" placeholder="Your email">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control alt" id="InputMessage" placeholder="Type your message">
+            </div>
+            <button type="submit" class="btn">SEND</button>
+          </form>
+        </div>
+
+      </div> <!--end of row-->
+
+    </div> <!--end of container2-->
+
+
 	</body>
 
 </html>

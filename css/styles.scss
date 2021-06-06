@@ -97,23 +97,23 @@ font-weight: 700;}
 
   .container3{
     margin: 30px 120px 60px 120px;
-
-    .col-sm-3{
-      ul{list-style-type: none;
-      margin-bottom: 30px;
-      padding-left: 0px;}
-    }
-
-    .col-sm-4.experience{
-      ul{margin-bottom: 30px;
-      padding-left: 0px;}
-    }
-
-    .col-12.resume{
-      margin-top: 30px;
-      color: white;}
-
-    h4{color: #FD9A01;
-    font-weight: 700;}
   } // end of container 3
+
+  .col-sm-4.experience{
+    ul{margin-bottom: 30px;
+    padding-left: 0px;}
+  }
+
+  .col-12.resume{
+    margin-top: 30px;
+    color: white;}
+
+  h4{color: #FD9A01;
+  font-weight: 700;}
+
+  .col-sm-3{
+    ul{list-style-type: none;
+    margin-bottom: 30px;
+    padding-left: 0px;}
+  }
 } // end of body resume
